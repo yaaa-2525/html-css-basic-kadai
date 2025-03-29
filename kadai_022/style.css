@@ -10,8 +10,8 @@ main {
 }
 
 #parent {
-  display: inline-block;
-  justify-content: center;
+  display: flex;
+  justify-content: space-around;
   align-content: space-between;
 }
 
@@ -64,7 +64,8 @@ body {
 
 @media screen and (max-width: 768px) {
   #parent {
-    display: block;
+    display: flex;
+    flex-direction: column;
 
     h2 {
       font-size: 30px;
@@ -77,12 +78,7 @@ body {
 
   }
 
-  .contents {
-    width: 100%;
-    margin: 0px;
-    border: none;
-    padding: 0px;
-  }
+
 
   img {
     width: 100%;
