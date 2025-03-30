@@ -1,6 +1,10 @@
+html{
+  font-size: 20px;
+}
+
 body{
   font-family: Arial, Meiryo, sans-serif;
-  font-size: 20px;
+  text-align: center;
 }
 .blue{
   color: skyblue;
@@ -10,16 +14,11 @@ body{
 }
 h1{
   font-family: Josefin Sans, sans-serif;
-  font-size: 200%;
+  font-size: 2rem;
   letter-spacing: 1.2em;
   text-shadow: 1px 1px 1px rgb(115,115,114);
   border-bottom: 3px solid rgb(115,115,114);
-
-}
-html{
-  text-align: center;
 }
 #basic p {
-  font-weight: bold;
-  
+  font-weight: bold;  
 }
